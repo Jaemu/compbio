@@ -1,6 +1,6 @@
 import fileinput
 
-def concat(*args):
+def concat(args):
     result = ''
     for arg in args:
         result = _concat(result, arg)
