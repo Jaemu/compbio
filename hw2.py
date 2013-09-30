@@ -39,12 +39,12 @@ def _overlap(m, n):
                         break
                 if(current_overlap > overlap):
                     overlap = current_overlap
-                    if((i + current_overlap) >= len(m)):
-                        prefix = m
-                        suffix = n
-                    else:
+                    if(i < j):
                         prefix = n
                         suffix = m
+                    else:
+                        prefix = m
+                        suffix = n
     result['overlap'] = overlap
     result['prefix'] = prefix
     result['suffix'] = suffix
@@ -54,8 +54,8 @@ def _overlap(m, n):
 def gen_strings(input):
     strings = []
     random.seed()
-    size = random.randint(2, len(input) - 2)
-    sample = random.randint(1, len(input) + 1000)
+    size = random.randint(5, len(input) - 2)
+    sample = random.randint(1, len(input) + 100)
     print("Fragment size: " + str(size) + ", " + str(sample) + " fragments")
     while sample > 0:
         temp_index = random.randint(0, len(input))
@@ -91,14 +91,14 @@ if __name__ == '__main__':
                 for s in result:
                     if(r != s):
                         temp = _overlap(r, s)
-                        if(temp['overlap'] > overlap):
+                        if(temp['overlap'] >= overlap):
                             overlap = temp['overlap']
                             stringm = temp['prefix']
                             stringn = temp['suffix']
             result.append(concat(stringm, stringn))
-            if(len(stringm) >0):
+            if(len(stringm) > 0):
                 result.remove(stringm)
-            if(len(stringn) >0):
+            if(len(stringn) > 0):
                 result.remove(stringn)
         print("Superstring:" + str(result) + ", Length: " + str(len(result[0])))
         print("Time to execute: " + str(time.time() - start_time) + ", Length of input: " + str(len(line)))
