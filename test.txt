@@ -1,0 +1,10 @@
+gtatattttaggctttgtggctgtacgtt
+gtatattttaggctttgtggctgtacgtt
+gtatattttaggctttgtggctgtacgtt
+gtatattttaggctttgtggctgtacgtt
+gtatattttaggctttgtggctgtacgtt
+You should start by writing a program which takes an input sequence of length
+You should start by writing a program which takes an input sequence of length
+You should start by writing a program which takes an input sequence of length
+You should start by writing a program which takes an input sequence of length
+You should start by writing a program which takes an input sequence of length

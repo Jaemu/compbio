@@ -1,0 +1,68 @@
+Fragment size: 28, 43 fragments
+Coverage: 40.1333333333
+Unique fragments(2): ['tatattttaggctttgtggctgtacgtt', 'gtatattttaggctttgtggctgtacgt']
+Superstring: gtatattttaggctttgtggctgtacgtt, Length: 29
+Time to execute: 0.0038321018219, Length of input: 30
+Accuracy: 0.966666666667
+
+Fragment size: 3, 77 fragments
+Coverage: 7.7
+Unique fragments(19): ['tat', 'gta', 'acg', 'tgt', 'gtg', 'agg', 'ctg', 'ata', 'ctt', 'ttt', 'att', 'tag', 'gtt', 'gct', 'ggc', 'tac', 'tta', 'ttg', 'cgt']
+Superstring: ttgttagttactagtttcttctgaggtggctgtgctacgtacgtattata, Length: 50
+Time to execute: 0.0286931991577, Length of input: 30
+Accuracy: 0.333333333333
+Fragment size: 3, 26 fragments
+Coverage: 2.6
+Unique fragments(14): ['tat', 'tgt', 'gtg', 'agg', 'ttt', 'att', 'tag', 'gtt', 'tgg', 'ggc', 'tta', 'ttg', 'cgt', 'gct']
+Superstring: cgttgttatggttggctagctatttaggtgtat, Length: 33
+Time to execute: 0.0167689323425, Length of input: 30
+Accuracy: 0.3
+
+Fragment size: 23, 24 fragments
+Coverage: 18.4
+Unique fragments(7): ['tattttaggctttgtggctgtac', 'tatattttaggctttgtggctgt', 'gtatattttaggctttgtggctg', 'atattttaggctttgtggctgta', 'ttttaggctttgtggctgtacgt', 'attttaggctttgtggctgtacg', 'tttaggctttgtggctgtacgtt']
+Superstring: gtatattttaggctttgtggctgtacgtt, Length: 29
+Time to execute: 0.0447158813477, Length of input: 30
+Accuracy: 0.966666666667
+
+Fragment size: 21, 95 fragments
+Coverage: 66.5
+Unique fragments(9): ['taggctttgtggctgtacgtt', 'attttaggctttgtggctgta', 'gtatattttaggctttgtggc', 'atattttaggctttgtggctg', 'tttaggctttgtggctgtacg', 'tatattttaggctttgtggct', 'ttttaggctttgtggctgtac', 'ttaggctttgtggctgtacgt', 'tattttaggctttgtggctgt']
+Superstring: gtatattttaggctttgtggctgtacgtt, Length: 29
+Time to execute: 0.0782489776611, Length of input: 30
+Accuracy: 0.966666666667
+
+Fragment size: 4, 154 fragments
+Coverage: 7.89743589744
+Unique fragments(65): ['ence', ' sta', 'd st', 'ogra', 'ing ', 'h ta', 'whic', 'gram', 'sequ', 'ng a', 'uld ', 'ch t', ' sho', 'by w', 'ou s', 'engt', 'f le', ' seq', 'leng', 'e of', 'hich', 'm wh', ' inp', 'eque', ' pro', 'quen', 'ting', 'y wr', 'take', 'riti', 'es a', 'ram ', 'n in', 'nce ', 'tart', 'akes', ' by ', 'ngth', 'ich ', 'u sh', 'nput', 'of l', 'an i', 'rogr', 'ut s', 't se', 'a pr', 'g a ', ' an ', 's an', 'itin', 'uenc', ' len', ' whi', 'ce o', 'ould', 'am w', 'rt b', 'art ', 'writ', 'put ', 'houl', 'kes ', 't by', 'star']
+Superstring:  start byt se by seqby wsequy wrequewritquenritiuencitinencetingnce ing ce o inpe ofng a whig a whics anhich an ich an inch ta prh ta prout shoul shouldput uld rogrof lograf legram lenam wram whlengnputengtu shngthes akes akestakeou sd st, Length: 238
+Time to execute: 1.04228901863, Length of input: 78
+Accuracy: 0.115384615385
+
+Fragment size: 20, 60 fragments
+Coverage: 15.3846153846
+Unique fragments(39): ['program which takes ', 'should start by writ', 'nput sequence of len', ' program which takes', 's an input sequence ', 'start by writing a p', 'hich takes an input ', 'rogram which takes a', 't by writing a progr', 'ram which takes an i', 't sequence of length', 'y writing a program ', 'an input sequence of', ' a program which tak', 'ting a program which', 'm which takes an inp', 'h takes an input seq', 'akes an input sequen', 'g a program which ta', 'input sequence of le', 'es an input sequence', 'which takes an input', 'iting a program whic', 'ng a program which t', 'ch takes an input se', 'art by writing a pro', 'takes an input seque', 'am which takes an in', 'ou should start by w', 'ing a program which ', 'ich takes an input s', 'gram which takes an ', 'n input sequence of ', 'ogram which takes an', ' input sequence of l', 'rt by writing a prog', ' by writing a progra', 'writing a program wh', 'by writing a program']
+Superstring: ou should start by writing a program which takes an input sequence of length, Length: 76
+Time to execute: 2.69438791275, Length of input: 78
+Accuracy: 0.0
+
+Fragment size: 56, 128 fragments
+Coverage: 91.8974358974
+Unique fragments(22): ['riting a program which takes an input sequence of length', 'by writing a program which takes an input sequence of le', ' start by writing a program which takes an input sequenc', 'hould start by writing a program which takes an input se', 'uld start by writing a program which takes an input sequ', 'rt by writing a program which takes an input sequence of', 'ould start by writing a program which takes an input seq', 'tart by writing a program which takes an input sequence ', 'art by writing a program which takes an input sequence o', 't by writing a program which takes an input sequence of ', 'ld start by writing a program which takes an input seque', 'ou should start by writing a program which takes an inpu', ' should start by writing a program which takes an input ', 'You should start by writing a program which takes an inp', ' by writing a program which takes an input sequence of l', 'u should start by writing a program which takes an input', 'start by writing a program which takes an input sequence', 'd start by writing a program which takes an input sequen', 'writing a program which takes an input sequence of lengt', 'y writing a program which takes an input sequence of len', 'should start by writing a program which takes an input s', ' writing a program which takes an input sequence of leng']
+Superstring: You should start by writing a program which takes an input sequence of length, Length: 77
+Time to execute: 5.41945099831, Length of input: 78
+Accuracy: 0.987179487179
+
+Fragment size: 66, 64 fragments
+Coverage: 54.1538461538
+Unique fragments(12): [' start by writing a program which takes an input sequence of lengt', 'ould start by writing a program which takes an input sequence of l', 'd start by writing a program which takes an input sequence of leng', 'You should start by writing a program which takes an input sequenc', 'u should start by writing a program which takes an input sequence ', 'ou should start by writing a program which takes an input sequence', 'should start by writing a program which takes an input sequence of', 'uld start by writing a program which takes an input sequence of le', 'hould start by writing a program which takes an input sequence of ', 'start by writing a program which takes an input sequence of length', 'ld start by writing a program which takes an input sequence of len', ' should start by writing a program which takes an input sequence o']
+Superstring: You should start by writing a program which takes an input sequence of length, Length: 77
+Time to execute: 1.3957118988, Length of input: 78
+Accuracy: 0.987179487179
+
+Fragment size: 62, 57 fragments
+Coverage: 45.8961038961
+Unique fragments(15): ['art by writing a program which takes an input sequence of leng', 'tart by writing a program which takes an input sequence of len', ' should start by writing a program which takes an input sequen', 'ould start by writing a program which takes an input sequence ', 'hould start by writing a program which takes an input sequence', 'start by writing a program which takes an input sequence of le', ' start by writing a program which takes an input sequence of l', 'u should start by writing a program which takes an input seque', 'You should start by writing a program which takes an input seq', 'ou should start by writing a program which takes an input sequ', 'd start by writing a program which takes an input sequence of ', 'uld start by writing a program which takes an input sequence o', 'rt by writing a program which takes an input sequence of lengt', 'ld start by writing a program which takes an input sequence of', 'should start by writing a program which takes an input sequenc']
+Superstring: You should start by writing a program which takes an input sequence of lengt, Length: 76
+Time to execute: 2.28171300888, Length of input: 77
+Accuracy: 0.987012987013
