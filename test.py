@@ -20,6 +20,7 @@ genes = sqlgraph.SQLTable('hg19.knownGene', serverInfo=serverInfo, primaryKey='n
 #target_gene = genes[gene]
 trScores = {}
 maxScore = 0
+
 for i in genes:
 	target_gene = genes[i]
 	trScores[target_gene.name] = 0
