@@ -54,9 +54,10 @@ def _overlap(m, n):
 def gen_strings(input):
     strings = []
     random.seed()
-    size = random.randint(5, len(input) - 2)
-    sample = random.randint(1, len(input) + 100)
+    size = random.randint(2, len(input))
+    sample = random.randint(20, len(input)+100)
     print("Fragment size: " + str(size) + ", " + str(sample) + " fragments")
+    print("Coverage: " + str(float((sample * size))/float(len(input))))
     while sample > 0:
         temp_index = random.randint(0, len(input))
         if(temp_index + size) < len(input):
@@ -100,5 +101,12 @@ if __name__ == '__main__':
                 result.remove(stringm)
             if(len(stringn) > 0):
                 result.remove(stringn)
-        print("Superstring:" + str(result) + ", Length: " + str(len(result[0])))
+        print("Superstring: " + str(result[0]) + ", Length: " + str(len(result[0])))
         print("Time to execute: " + str(time.time() - start_time) + ", Length of input: " + str(len(line)))
+        accuracy = 0
+        superstring = result[0]
+        for i in xrange(0, len(superstring)):
+            if(i < len(line)):
+                if(superstring[i] == line[i]):
+                    accuracy = accuracy + 1
+        print("Accuracy: " + str(float(accuracy)/float(len(line))))
